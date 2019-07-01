@@ -26,7 +26,7 @@ filteredWords = {}
 for word in blob_string.words:
     filteredWords[word.lower()] = blob_string.word_counts[word.lower()]
 
-print(filteredWords)
+# print(filteredWords)
 
 tweet_text = []
 for tweet in tweetData:
